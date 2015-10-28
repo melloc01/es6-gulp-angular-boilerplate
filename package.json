@@ -10,9 +10,13 @@
   "license": "ISC",
   "devDependencies": {
     "angular": "^1.4.7",
+    "browserify-ng-html2js": "^1.1.5",
     "bulk-require": "^0.2.1",
     "bulkify": "^1.1.1",
     "laravel-elixir": "^3.4.2",
     "laravel-elixir-ngtemplatecache": "^0.2.0"
+  },
+  "dependencies": {
+    "browserify-ngannotate": "^1.0.1"
   }
 }

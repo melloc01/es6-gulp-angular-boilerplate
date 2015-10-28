@@ -21,7 +21,7 @@ Elixir(function (mix) {
 		.browserify('app/main.js', basePath + '/js/')
 		.browserSync(
 			[
-				'build/*'
+				'app/*'
 			]);
 
     

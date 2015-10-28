@@ -10,15 +10,3 @@ requires.push('templates');
 
 
 angular.module('app', requires);
-
-class Animal {
-
-	constructor(type) {
-
-		console.log(type);
-	}
-
-
-}
-
-new Animal('dog');
