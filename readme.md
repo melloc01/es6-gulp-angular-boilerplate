@@ -1,0 +1,1 @@
+# ES6 + Gulp + Angular + Browserify Front-end boilerplate
