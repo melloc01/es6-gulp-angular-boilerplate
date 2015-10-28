@@ -1,0 +1,1 @@
+angular.module("templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("src/signin/signin.tpl.html","<pre>{{ ctrl | json}}</pre>");}]);

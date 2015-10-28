@@ -1,0 +1,142 @@
+{
+
+
+    "assetsPath": "",
+
+    "publicPath": "build",
+
+    "css": {
+
+        "folder": "css",
+
+        "outputFolder": "css",
+
+        "autoprefix": {
+            "enabled": true,
+
+            
+            "options":  {
+                "browsers": ["last 2 versions"],
+                "cascade": false
+            }
+        },
+
+        "minifyCss": {
+            
+            "pluginOptions": {
+                "processImport": false
+            }
+        },
+
+        "sass": {
+            "folder": ""
+            
+        },
+
+        "less": {
+            "folder": "less",
+            
+            "pluginOptions": {}
+        }
+    },
+
+    "js": {
+
+
+        "folder": "",
+        "outputFolder": "",
+        "babel": {
+            
+            "options": {
+                "stage": 2,
+                "compact": false
+            }
+        },
+        "browserify": {
+            
+            "options": {},
+
+            "plugins": [],
+
+            "transformers": [
+                {
+                    "name": "babelify",
+
+                    
+                    "options": {
+                        "stage": 2,
+                        "compact": false
+                    }
+                },
+
+                {
+                    "name": "partialify",
+
+                    
+                    "options": {}
+                },
+
+                {
+                    "name": "bulkify",
+
+                    
+                    "options": {}
+                },
+
+                {
+                    "name": "vueify",
+
+                    
+                    "options": {}
+                }
+            ],
+
+            "watchify": {
+                "enabled": true,
+
+                
+                "options": {}
+            }
+        },
+
+        "coffee": {
+            "folder": "coffee",
+
+            
+            "options": {}
+        }
+    },
+
+    "testing": {
+        "phpUnit": {
+            "path": "tests",
+
+            
+            "options": {
+                "debug": true,
+                "notify": true,
+                "configurationFile": "phpunit.xml"
+            }
+        },
+        "phpSpec": {
+            "path": "spec",
+
+            
+            "options": {
+                "verbose": "v",
+                "notify": true
+            }
+        }
+    },
+
+    "versioning": {
+        "buildFolder": "build"
+    },
+    "browserSync": {
+        
+        "proxy": "localhost:8080",
+        "reloadOnRestart" : true,
+        "notify": true
+    }
+
+}
